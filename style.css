@@ -1,0 +1,227 @@
+@font-face {
+    src: url("fonts/NunitoSans-Regular.ttf");
+    font-family: "Nunito Sans Regular";
+}
+
+@font-face {
+    src: url("fonts/NunitoSans-Italic.ttf");
+    font-family: "Nunito Sans Italic";
+}
+
+@font-face {
+    src: url("fonts/YesevaOne-Regular.ttf");
+    font-family: "Yeseva One";
+}
+
+body {
+    margin: 0;
+    font-family: "Nunito Sans", Arial;
+    box-sizing: border-box;
+    font-family: "Nunito Sans Regular", Arial, sans-serif;
+}
+
+.container {
+    max-width: 1263px;
+    margin: 0 auto;
+}
+
+.button {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.title {
+    margin: 0;
+    font-family: "Yeseva One", "Times New Roman", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.subtitle {
+    font-family: "Yeseva One", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.completed-projects {
+    background-color: black;
+    background-size: cover;
+    height: 1074px;
+    padding-top: 107px;
+    position: relative;
+}
+
+.completed-projects__container {
+    position: relative;
+    max-width: 1263px;
+    margin: 0 auto;
+}
+
+.completed-projects__navigation {
+    list-style: none;
+    display: flex;
+    margin: 0px 0px 0px 492px;
+    padding: 0px;
+}
+
+.completed-projects__navigation__item {
+    margin: 0px 60.5px 0px 0px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.completed-projects__navigation__item:last-of-type {
+    margin: 0px;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.desktop-1, .desktop-2, .desktop-3 {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.completed-projects__navigation__item a:hover {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 6.68px;
+}
+
+.active {
+    color: #E3B873;
+    border-bottom: 1px solid #E3B873;
+    padding-bottom: 6.68px;
+}
+
+.completed-projects__main {
+    display: flex;
+    margin-top: 53.04px;
+    justify-content: center;
+    padding: 0px 42px;
+}
+
+.completed-projects__image {
+    background-image: url("images/mask-group.jpg");
+    filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.15));
+    width: 100%;
+    height: 482.38px;
+    display: inline-block;
+}
+
+.completed-projects__title {
+    color: #E3B873;
+}
+
+.completed-projects__line {
+    margin-left: 34px;
+    margin-bottom: 13px;
+}
+
+.completed-projects__paragraph {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 34px 0px 0px;
+    width: 442px;
+}
+
+.completed-projects__main__text__data {
+    margin-top: 7.64px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.completed-projects__main__text__data__subtitle {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.completed-projects__main__text__data__span {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 9px;
+    display: inline-block;
+}
+
+.completed-projects__main__text__data__item {
+    margin-top: 34.36px;
+    width: 176px;
+    margin-right: 48.5px;
+}
+
+.completed-projects__main__text__switcher {
+    display: flex;
+    height: 13.28px;
+    margin-top: 79.64px;
+}
+
+.page-switcher {
+    display: flex;
+    margin: 0 29.5px;
+    width: 63.78px;
+    height: 9.57px;
+}
+
+.round {
+    background-color: #5A5A5A;
+    border-radius: 50%;
+    width: 9.57px;
+    height: 9.57px;
+    margin-right: 17.54px;
+    cursor: pointer;
+}
+
+.round:hover {
+    background-color: #FFFFFF;
+}
+
+.round:last-of-type {
+    margin-right: 0px;
+}
+
+.prev, .next {
+    cursor: pointer;
+}
